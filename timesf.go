@@ -2,7 +2,7 @@
 // 是因为普通的单飞包，必须手动的去Forget结果。假如我查缓存，然后缓存过期了，我
 // 再去查缓存，会拿到和之前一样的结果。但是假如这段时间数据已经进行了变更的话，
 // 就从新去查数据库。
-package singlecache
+package timesf
 
 import (
 	"math"
